@@ -46,3 +46,9 @@ while x < len(sport_brand):
 print(sport_brand)
         
 
+
+
+magicans = ["alice", "david", "carolina"]
+for magican in magicans:
+    print(f"{magican.title()}, that was a great trick!")
+    
