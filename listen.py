@@ -48,7 +48,30 @@ print(sport_brand)
 
 
 
-magicans = ["alice", "david", "carolina"]
-for magican in magicans:
-    print(f"{magican.title()}, that was a great trick!")
+#magicans = ["alice", "david", "carolina"]
+#for magican in magicans:
+#    print(f"{magican.title()}, that was a great trick!")
+    
+
+
+
+squares = [value**2 for value in range(1,11)]
+
+#print(squares)
+
+
+
+
+
+players = ["Charles", "Tim", "Lisa", "Carl", "Jonas"]
+
+#print(players[1:4]) # => ['Tim', 'Lisa', 'Carl']
+#print(players[:4])  # => ['Charles', 'Tim', 'Lisa', 'Carl']
+#print(players[2:]) # => ['Lisa', 'Carl', 'Jonas']
+#print(players[-3:]) # => ['Lisa', 'Carl', 'Jonas']
+
+
+
+for player in players[2:]:
+    print(player)
     
