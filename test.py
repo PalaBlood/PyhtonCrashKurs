@@ -1,9 +1,8 @@
-def mulitpli(*numbers): 
-    sum = 1
-    for i in numbers:
-        sum *= i
-        print(sum)
-    return sum
- 
- 
-mulitpli(2,2,3)
+field = ["",
+             "1", "2", "3", 
+             "4", "5", "6",
+             "7", "8", "9"]
+
+
+for i in field:
+    print(i)
