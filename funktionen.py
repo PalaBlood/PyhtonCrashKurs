@@ -17,4 +17,18 @@ def multiply2(number1, number2, *numbers):
     return sum
 
 
-#multiply2(2,11,3) # => 66 
+#multiply2(2,11,3,2) # => 122
+
+
+
+
+#Statt Zeilenumbruch mit end sagen was passiert
+#print("Hallo", end=", ") 
+#print("Welt")   # => Hallo, Welt
+
+
+
+
+#print("Hallo", "Welt", "Und", "Ja") # => Hallo Welt Und JA
+#print("Hallo", "Welt", "Und", "Ja", sep="-") # => Hallo-Welt-Und-Ja
+#print("Hallo", "Welt", "Und", "Ja", sep="_") # => Hallo_Welt_Und_Ja
