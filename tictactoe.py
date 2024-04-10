@@ -38,13 +38,21 @@ def spiel_gewonnen():
 def start_game():
     while not spiel_gewonnen():
         print_field()
-        response = input("Wähle ein Feld zwischen 1 und 9 aus")
+        response = input("Spieler1: Wähle ein Feld zwischen 1 und 9 aus: ")
         if response in field: 
             field[int(response)] = "x"
         else: 
             print("Bitte wähle einen gültigen Bereich aus")
-    print("spiel gewonnen!")
+            
+        print_field()
+        response2 = input("Spieler2: Wähle ein Feld zwischen 1 und 9 aus: ")
+        if response2 in field: 
+            field[int(response2)] = "O"
+        else: 
+            print("Bitte wähle einen gültigen Bereich aus")
+            
+    print("Spiel vorbei!")
     print_field()
-        
-                     
+      
+                    
 start_game()
